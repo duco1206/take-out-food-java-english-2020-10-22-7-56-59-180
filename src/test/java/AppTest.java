@@ -22,9 +22,9 @@ public class AppTest {
                 "Cold noodles x 1 = 8 yuan\n" +
                 "-----------------------------------\n" +
                 "Promotion used:\n" +
-                "Half price for certain dishes (Braised chicken，Cold noodles)，saving 13 yuan\n" +
+                "Half price for certain dishes (Braised chicken,Cold noodles),saving 13 yuan\n" +
                 "-----------------------------------\n" +
-                "Total：25 yuan\n" +
+                "Total:25 yuan\n" +
                 "==================================="));
 
     }
@@ -41,9 +41,9 @@ public class AppTest {
                 "Cold noodles x 1 = 8 yuan\n" +
                 "-----------------------------------\n" +
                 "Promotion used:\n" +
-                "满30减6 yuan，saving 6 yuan\n" +
+                "满30减6 yuan,saving 6 yuan\n" +
                 "-----------------------------------\n" +
-                "Total：26 yuan\n" +
+                "Total:26 yuan\n" +
                 "==================================="));
 
     }
@@ -59,7 +59,7 @@ public class AppTest {
         assertThat(receiptString, is("============= Order details =============\n" +
                 "Chinese hamburger x 4 = 24 yuan\n" +
                 "-----------------------------------\n" +
-                "Total：24 yuan\n" +
+                "Total:24 yuan\n" +
                 "==================================="));
 
     }
