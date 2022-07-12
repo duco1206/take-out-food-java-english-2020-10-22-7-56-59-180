@@ -31,7 +31,7 @@ public class App {
                 "===================================";
         String sale30_5 = "-----------------------------------\n" +
                 "Promotion used:\n" +
-                "满30减6 yuan,saving 6 yuan\n";
+                "Deduct 6 yuan when the order reaches 30 yuan,saving 6 yuan\n";
 
         String promotion = "-----------------------------------\n" +
                 "Promotion used:\n" +
